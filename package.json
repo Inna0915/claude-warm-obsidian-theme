@@ -1,0 +1,10 @@
+{
+  "name": "claude-warm-obsidian-theme",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-theme.mjs",
+    "screenshot": "node scripts/generate-screenshot.mjs"
+  }
+}
