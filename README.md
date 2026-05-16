@@ -18,7 +18,12 @@ Claude Warm uses soft ivory in light mode and charcoal gray in dark mode, with m
 
 ### From Obsidian
 
-After the theme is accepted into the community directory:
+Claude Warm is available in the Obsidian community theme directory:
+
+- Community page: <https://community.obsidian.md/themes/claude-warm>
+- Open in Obsidian: <obsidian://show-theme?name=Claude%20Warm>
+
+To install from Obsidian:
 
 1. Open Obsidian Settings.
 2. Go to `Appearance`.
