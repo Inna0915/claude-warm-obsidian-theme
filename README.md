@@ -82,12 +82,12 @@ Issues and pull requests are welcome. Screenshots are especially helpful for UI 
 
 ## Palette
 
-- Light background: `#F8F7F2`, `hsl(51, 24%, 95%)`
+- Light background: `#F8F7F2`, `hsl(51, 28%, 95%)`
 - Light text: `hsl(47, 15%, 25%)`
-- Light accent: `#7C1B13`
+- Light accent: `#B7791F`
 - Dark background: `#2A2B2A`, `#2D2E2D`
 - Dark text: `hsl(50, 14%, 91%)`
-- Dark accent: `#EA928A`
+- Dark accent: `#E6BF7A`
 
 ## License
 

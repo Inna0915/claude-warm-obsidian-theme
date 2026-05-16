@@ -10,12 +10,12 @@ const palette = {
   paper: [252, 250, 246, 255],
   straw: [233, 228, 214, 255],
   ink: [63, 58, 47, 255],
-  brick: [124, 27, 19, 255],
+  gold: [183, 121, 31, 255],
   charcoal: [42, 43, 42, 255],
   panel: [45, 46, 45, 255],
   graphite: [40, 44, 52, 255],
   creamText: [236, 233, 220, 255],
-  coral: [234, 146, 138, 255]
+  warmGold: [230, 191, 122, 255]
 };
 
 for (let y = 0; y < height; y += 1) {
@@ -35,7 +35,7 @@ function mockObsidian(x, y, w, h, dark) {
   const bg = dark ? palette.panel : palette.paper;
   const side = dark ? palette.graphite : palette.straw;
   const text = dark ? palette.creamText : palette.ink;
-  const accent = dark ? palette.coral : palette.brick;
+  const accent = dark ? palette.warmGold : palette.gold;
   const muted = dark ? [180, 176, 164, 255] : [126, 117, 96, 255];
 
   roundedRect(x, y, w, h, 12, bg);
