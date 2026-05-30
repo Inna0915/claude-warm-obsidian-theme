@@ -396,7 +396,7 @@ body {
   border-color: var(--blockquote-border-color);
 }
 
-.markdown-rendered table {
+.markdown-rendered table:not(.table-editor) {
   border-collapse: separate;
   border-spacing: 0;
   border: 1px solid var(--background-modifier-border);
@@ -404,32 +404,27 @@ body {
   overflow: hidden;
 }
 
-.markdown-rendered th,
-.markdown-rendered td {
+.markdown-rendered table:not(.table-editor) th,
+.markdown-rendered table:not(.table-editor) td {
   vertical-align: top;
   border-color: var(--background-modifier-border);
 }
 
-.markdown-rendered th {
+.markdown-rendered table:not(.table-editor) th {
   background-color: var(--table-header-background);
   color: var(--text-normal);
   font-weight: 600;
 }
 
-.markdown-rendered tbody tr:nth-child(2n) {
+.markdown-rendered table:not(.table-editor) tbody tr:nth-child(2n) {
   background-color: var(--background-secondary);
 }
 
-.markdown-rendered tbody tr:hover {
+.markdown-rendered table:not(.table-editor) tbody tr:hover {
   background-color: var(--table-row-background-hover);
 }
 
-/* Keep Live Preview editable table cells on a single line, aligned to top */
-.markdown-source-view.mod-cm6 .table-editor td,
-.markdown-source-view.mod-cm6 .table-editor th {
-  vertical-align: top;
-}
-
+/* Keep Live Preview editable table cells on a single line */
 .markdown-source-view.mod-cm6 .table-editor .table-cell-wrapper {
   white-space: nowrap;
 }
