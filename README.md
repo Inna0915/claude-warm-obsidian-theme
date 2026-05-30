@@ -13,10 +13,10 @@
 <p align="center">
   <img alt="Light palette" src="https://img.shields.io/badge/Light-Ivory%20%23F8F7F2-F8F7F2?style=flat-square&labelColor=3F3A2F&color=F8F7F2">
   <img alt="Dark palette" src="https://img.shields.io/badge/Dark-Charcoal%20%232A2B2A-2A2B2A?style=flat-square&labelColor=F8F7F2&color=2A2B2A">
-  <img alt="Accent palette" src="https://img.shields.io/badge/Accent-Warm%20Gold%20%23B7791F-B7791F?style=flat-square&labelColor=2A2B2A&color=B7791F">
+  <img alt="Accent palette" src="https://img.shields.io/badge/Accent-Clay%20%23BD5D3A-BD5D3A?style=flat-square&labelColor=2A2B2A&color=BD5D3A">
 </p>
 
-A warm, quiet theme for Obsidian with soft ivory surfaces, charcoal depth, and a restrained warm-gold accent system.
+A warm, quiet theme for Obsidian with soft ivory surfaces, charcoal depth, and a restrained Claude-clay accent system.
 
 Claude Warm is inspired by Claude's calm, low-contrast interface: comfortable enough for long writing sessions, structured enough for dense vaults, and polished enough for a professional workspace.
 
@@ -26,14 +26,14 @@ Claude Warm is inspired by Claude's calm, low-contrast interface: comfortable en
 | --- | --- |
 | Backgrounds | Soft ivory in light mode, layered charcoal in dark mode |
 | Text | Warm ink and soft cream for comfortable reading contrast |
-| Accents | Muted gold for links, tags, selections, and focused controls |
+| Accents | Warm clay for links, tags, selections, and focused controls |
 | Shapes | Rounded panes, gentle borders, and quiet shadows |
 
 ## Features
 
 - Light and dark color schemes tuned as a matched pair
 - Warm backgrounds with restrained contrast for long-form reading and editing
-- Warm-gold accents for links, tags, selections, and focused controls
+- Warm-clay accents for links, tags, selections, and focused controls
 - Softer sidebars, tabs, menus, modals, tables, callouts, and code blocks
 - No remote fonts or external assets in the theme CSS
 
@@ -68,8 +68,8 @@ To install from Obsidian:
 | --- | --- | --- |
 | Background | `#F8F7F2`, `hsl(51, 28%, 95%)` | `#2A2B2A`, `#2D2E2D` |
 | Text | `hsl(47, 15%, 25%)` | `hsl(50, 14%, 91%)` |
-| Accent | `#B7791F` | `#E6BF7A` |
-| Code accent | `#B7791F` | `#E6BF7A` |
+| Accent | `#BD5D3A` | `#DF8568` |
+| Code accent | `#BD5D3A` | `#DF8568` |
 
 ## Development
 
