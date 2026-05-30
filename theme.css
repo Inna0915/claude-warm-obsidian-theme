@@ -355,7 +355,7 @@ body {
   padding-top: 24px;
 }
 
-.markdown-source-view.mod-cm6 .cm-content {
+.markdown-source-view.mod-cm6 .cm-contentContainer > .cm-content {
   padding-top: 24px;
 }
 
