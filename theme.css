@@ -400,25 +400,36 @@ body {
   border-collapse: separate;
   border-spacing: 0;
   border: 1px solid var(--background-modifier-border);
-  border-radius: var(--radius-l);
+  border-radius: var(--radius-m);
   overflow: hidden;
+}
+
+.markdown-rendered th,
+.markdown-rendered td {
+  vertical-align: top;
+  border-color: var(--background-modifier-border);
 }
 
 .markdown-rendered th {
   background-color: var(--table-header-background);
   color: var(--text-normal);
-  border-color: var(--background-modifier-border);
+  font-weight: 600;
 }
 
-.markdown-rendered td {
-  border-color: var(--background-modifier-border);
+.markdown-rendered tbody tr:nth-child(2n) {
+  background-color: var(--background-secondary);
 }
 
-.markdown-rendered tr:hover {
+.markdown-rendered tbody tr:hover {
   background-color: var(--table-row-background-hover);
 }
 
-/* Keep Live Preview editable table cells on a single line */
+/* Keep Live Preview editable table cells on a single line, aligned to top */
+.markdown-source-view.mod-cm6 .table-editor td,
+.markdown-source-view.mod-cm6 .table-editor th {
+  vertical-align: top;
+}
+
 .markdown-source-view.mod-cm6 .table-editor .table-cell-wrapper {
   white-space: nowrap;
 }
@@ -527,7 +538,7 @@ body {
 .metadata-property-value input[type="number"]:hover,
 .metadata-property-value input[type="date"]:hover,
 .metadata-property-value input[type="datetime-local"]:hover {
-  background-color: var(--background-modifier-form-field);
+  background-color: var(--background-modifier-hover);
   box-shadow: none;
 }
 
@@ -536,7 +547,7 @@ body {
 .metadata-property-value input[type="number"]:focus,
 .metadata-property-value input[type="date"]:focus,
 .metadata-property-value input[type="datetime-local"]:focus {
-  background-color: var(--background-modifier-form-field);
+  background-color: var(--background-modifier-hover);
   box-shadow: 0 0 0 2px var(--input-focus-ring-color);
 }
 
@@ -545,6 +556,11 @@ body {
   border: 1px solid var(--cw-tag-border-color);
   border-radius: 999px;
   color: var(--tag-color);
+  padding-inline: 8px 6px;
+}
+
+.metadata-property .multi-select-pill .multi-select-pill-content {
+  overflow: visible;
 }
 
 .metadata-property .multi-select-pill:hover {
